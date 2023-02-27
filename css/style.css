@@ -79,8 +79,6 @@ header span {
 .hamburger {
     width: 50px;
     height: 40px;
-    border: 1px solid white;
-    border-radius: 5px;
 }
 
 ul li {
@@ -100,10 +98,6 @@ ul li {
 /* about */
 .about {
     background-color: var(--jumbotron_about-bg);
-}
-
-.about .btn {
-    border: 1px solid white;
 }
 
 /* contact me */
