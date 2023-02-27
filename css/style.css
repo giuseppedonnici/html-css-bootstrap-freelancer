@@ -24,6 +24,11 @@ a {
     margin: 0 auto;
 }
 
+.ms_container_60 {
+    width: 60%;
+    margin: 0 auto;
+}
+
 section {
     padding: 1.5rem 0;
 }
@@ -70,4 +75,13 @@ hr {
     /* debug */
     height: 100px;
     border: 1px solid black;
+}
+
+/* about */
+.about {
+    background-color: var(--jumbotron_about-bg);
+}
+
+.btn {
+    border: 1px solid white;
 }
