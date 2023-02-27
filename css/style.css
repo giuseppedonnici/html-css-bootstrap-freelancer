@@ -1,6 +1,7 @@
 /* VARIABLES */
 :root {
     --header-bg: #2C3E50;
+    --jumbotron_about-bg: #1ABC9C;
 }
 
 /* RESET */
@@ -12,10 +13,19 @@ ul {
     list-style-type: none;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* LAYOUT */
 .ms_container {
     width: 80%;
     margin: 0 auto;
+}
+
+section {
+    padding: 1.5rem 0;
 }
 
 /* HEADER */
@@ -37,4 +47,27 @@ header span {
 
 ul li {
     margin-left: 1.5rem;
+}
+
+/* MAIN */
+/* jumbotron */
+.ms_jumbotron {
+    background-color: var(--jumbotron_about-bg);
+}
+
+.ms_jumbotron img {
+    width: 200px;
+}
+
+hr {
+    background-color: white;
+    font-size: 2rem;
+    width: 25%;
+}
+
+/* portfolio */
+.col-12 {
+    /* debug */
+    height: 100px;
+    border: 1px solid black;
 }
