@@ -1,4 +1,40 @@
+/* VARIABLES */
+:root {
+    --header-bg: #2C3E50;
+}
+
 /* RESET */
 img {
     max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* LAYOUT */
+.ms_container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+header {
+    background-color: var(--header-bg);
+    height: 80px;
+}
+
+header span {
+    font-size: 1.5rem;
+}
+
+.hamburger {
+    width: 50px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+ul li {
+    margin-left: 1.5rem;
 }
