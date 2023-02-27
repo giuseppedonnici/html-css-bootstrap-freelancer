@@ -2,6 +2,8 @@
 :root {
     --header-bg: #2C3E50;
     --jumbotron_about-bg: #1ABC9C;
+    --footer_location-bg: #3A546D;
+    --footer_copyright-bg: #2C3E50;
 }
 
 /* RESET */
@@ -82,6 +84,23 @@ hr {
     background-color: var(--jumbotron_about-bg);
 }
 
-.btn {
+.about .btn {
     border: 1px solid white;
+}
+
+/* contact me */
+.contact form input {
+    width: 100%;
+}
+.contact .btn {
+    background-color: var(--jumbotron_about-bg);
+}
+
+/* FOOTER */
+footer .location {
+    background-color: var(--footer_location-bg);
+}
+
+footer .copyright {
+    background-color: var(--footer_copyright-bg);
 }
