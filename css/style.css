@@ -1,7 +1,7 @@
 /* VARIABLES */
 :root {
     --header-bg: #2C3E50;
-    --jumbotron_about-bg: #1ABC9C;
+    --primary-color: #1ABC9C;
     --footer_location-bg: #3A546D;
     --footer_copyright-bg: #2C3E50;
 }
@@ -20,6 +20,11 @@ a {
     color: inherit;
 }
 
+/* Utilities */
+.ms_prim-color {
+    color: var(--primary-color);
+}
+
 /* Layout */
 .ms_container_60 {
     max-width: 720px;
@@ -28,14 +33,14 @@ a {
 }
 
 section {
-    position: relative;
     padding: 3.5rem 0;
 }
 
 .ms_jumbotron_title,
 .ms_portfolio_title,
 .ms_about_title,
-.ms_contact_title {
+.ms_contact_title,
+section {
     position: relative;
 }
 
@@ -82,7 +87,7 @@ ul li {
 /* MAIN */
 /* jumbotron */
 .ms_jumbotron {
-    background-color: var(--jumbotron_about-bg);
+    background-color: var(--primary-color);
 }
 
 .ms_jumbotron img {
@@ -91,7 +96,7 @@ ul li {
 
 /* about */
 .ms_about {
-    background-color: var(--jumbotron_about-bg);
+    background-color: var(--primary-color);
 }
 
 /* contact me */
@@ -111,16 +116,30 @@ input:focus-visible {
     outline: unset;
 }
 
-
-
 .ms_contact .btn {
-    background-color: var(--jumbotron_about-bg);
+    background-color: var(--primary-color);
 }
 
 /* FOOTER */
 footer .location {
     background-color: var(--footer_location-bg);
 }
+
+footer .ms_brands span {
+    position: relative;
+    display: inline-block;
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+}
+
+footer .ms_brands span i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 
 footer .copyright {
     background-color: var(--footer_copyright-bg);
