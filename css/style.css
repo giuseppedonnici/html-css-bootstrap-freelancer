@@ -21,14 +21,14 @@ a {
 }
 
 /* LAYOUT */
-.ms_container {
+/* .ms_container {
     max-width: 1200px;
     width: 80%;
     margin: 0 auto;
-}
+} */
 
 .ms_container_60 {
-    max-width: 1100px;
+    max-width: 720px;
     width: 60%;
     margin: 0 auto;
 }
@@ -38,10 +38,10 @@ section {
     padding: 3.5rem 0;
 }
 
-.jumbotron_title,
-.portfolio_title,
-.about_title,
-.contact_title {
+.ms_jumbotron_title,
+.ms_portfolio_title,
+.ms_about_title,
+.ms_contact_title {
     position: relative;
 }
 
@@ -76,7 +76,7 @@ header span {
     font-size: 1.5rem;
 }
 
-.hamburger {
+.ms_hamburger {
     width: 50px;
     height: 40px;
 }
@@ -96,15 +96,15 @@ ul li {
 }
 
 /* about */
-.about {
+.ms_about {
     background-color: var(--jumbotron_about-bg);
 }
 
 /* contact me */
-.contact form input {
+.ms_contact form input {
     width: 100%;
 }
-.contact .btn {
+.ms_contact .btn {
     background-color: var(--jumbotron_about-bg);
 }
 
