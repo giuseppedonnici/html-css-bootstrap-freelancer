@@ -68,20 +68,15 @@ section {
 /* HEADER */
 header {
     background-color: var(--header-bg);
-    height: 80px;
 }
 
-header span {
-    font-size: 1.5rem;
+.navbar-toggler {
+    border-color: white;
 }
 
-.ms_hamburger {
-    width: 50px;
-    height: 40px;
-}
-
-ul li {
-    margin-left: 1.5rem;
+.nav-link {
+    color: inherit;
+    font-weight: bold;
 }
 
 /* MAIN */
@@ -139,7 +134,6 @@ footer .ms_brands span i {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 
 footer .copyright {
     background-color: var(--footer_copyright-bg);

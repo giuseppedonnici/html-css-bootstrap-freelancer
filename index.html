@@ -21,27 +21,27 @@
 <body>
     <!-- HEADER -->
     <header class="text-white text-uppercase">
-        <div class="container h-100 d-flex justify-content-between align-items-center fw-bold">
-            <span>
-                start bootstrap
-            </span>
-            <span class="ms_hamburger text-center text-secondary border rounded-1 d-md-none">
-                <a href="#">
-                    <i class="fa-solid fa-bars"></i>
-                </a>
-            </span>
-            <ul class="d-none d-md-flex">
-                <li>
-                    <a href="#">portfolio</a>
-                </li>
-                <li>
-                    <a href="#">about</a>
-                </li>
-                <li>
-                    <a href="#">contact</a>
-                </li>
-            </ul>
-        </div>
+        <nav class="container navbar navbar-expand-md">
+            <div class="container-fluid">
+              <a href="#" class="fs-4 fw-bold">start bootstrap</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">about</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     <!-- /HEADER -->
 
@@ -147,7 +147,7 @@
         <section class="location">
             <div class="container">
                 <div class="container-fluid">
-                    <div class="row row-cols-1 row-cols-md-4 justify-content-between g-4">
+                    <div class="row row-cols-1 row-cols-md-3 justify-content-between g-4">
                         <div class="col">
                             <h5 class="text-uppercase">location</h5>
                             <address>2215 John Daniel Drive Clark, MO 52243</address>
@@ -174,6 +174,5 @@
 
     </footer>
     <!-- /FOOTER -->
-    
 </body>
 </html>
