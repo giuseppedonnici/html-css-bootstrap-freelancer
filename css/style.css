@@ -20,13 +20,7 @@ a {
     color: inherit;
 }
 
-/* LAYOUT */
-/* .ms_container {
-    max-width: 1200px;
-    width: 80%;
-    margin: 0 auto;
-} */
-
+/* Layout */
 .ms_container_60 {
     max-width: 720px;
     width: 60%;
@@ -101,9 +95,24 @@ ul li {
 }
 
 /* contact me */
-.ms_contact form input {
-    width: 100%;
+.form-control {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
 }
+
+.form-control:focus {
+    border-color: unset;
+    box-shadow: none;
+}
+
+input:focus-visible {
+    outline: unset;
+}
+
+
+
 .ms_contact .btn {
     background-color: var(--jumbotron_about-bg);
 }

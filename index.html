@@ -116,20 +116,26 @@
                 <h2 class="text-uppercase">contact me</h2>
                 <span class="d-inline-block mb-3 star"><i class="fa-solid fa-star"></i></span>
             </div>
-            <form action="" class="ms_container_60 text-start">
-                <label for="name">Name
-                    <input type="text">
-                </label><br>
-                <label for="email">Email Address
-                    <input type="email">
-                </label><br>
-                <label for="tel">Phone Number
-                    <input type="tel">
-                </label><br>
-                <label for="message">Message
-                </label><br>
-                <textarea name="message" id="" cols="30" rows="10"></textarea><br>
-                <a href="#" class="btn text-white">Send</a>
+            <form action="#" class="ms_container_60 text-start">
+                <form>
+                    <div>
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" aria-describedby="nameHelp">
+                      </div>
+                    <div>
+                      <label for="email" class="form-label">Email Address</label>
+                      <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                    </div>
+                    <div>
+                      <label for="phone" class="form-label">Phone Number</label>
+                      <input type="tel" class="form-control" id="phone">
+                    </div>
+                    <div>
+                        <label for="Textarea" class="form-label">Message</label>
+                        <textarea class="form-control" id="Textarea" rows="3"></textarea>
+                      </div>
+                    <button type="submit" class="btn text-white">Send</button>
+                  </form>
             </form>
         </section>
         <!-- /contact me -->
